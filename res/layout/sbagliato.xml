@@ -36,8 +36,8 @@
         android:layout_height="match_parent">
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/widget34"
@@ -52,7 +52,9 @@
                 android:layout_y="-110dp"
                 android:layout_above="@+id/widget35"
                 android:layout_alignParentTop="true"
-                android:layout_alignRight="@+id/widget38" />
+                android:layout_alignRight="@+id/widget38"
+                android:layout_gravity="bottom|left|right|top"
+                android:layout_span="2" />
         </TableRow>
 
         <TableRow
